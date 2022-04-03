@@ -1,0 +1,91 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "农+首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/page1/page1",
+			"style":{
+				"navigationBarTitleText":"农+直播"
+			}
+		},
+		{
+			"path": "pages/page2/page2",
+			"style":{
+				"navigationBarTitleText":"农+产品"
+			}
+		}
+	    ,{
+            "path" : "pages/page3/page3",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/page4/page4",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/page5/page5",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "直播页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "none",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		
+	},
+	"tabBar": {
+		"selectedColor":"#ffaa00",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath":"static/tabs/_home.png",
+				"selectedIconPath":"static/tabs/_home1.png"
+			},
+			{
+				"text": "直播",
+				"pagePath": "pages/page1/page1",
+				"iconPath":"static/tabs/_zhibo.png",
+				"selectedIconPath":"static/tabs/_zhibo1.png"
+			},
+			{
+				"text": "产品",
+				"pagePath": "pages/page2/page2",
+				"iconPath":"static/tabs/_chanpin.png",
+				"selectedIconPath":"static/tabs/_chanpin1.png"
+			}
+		],
+		"borderStyle":"black"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

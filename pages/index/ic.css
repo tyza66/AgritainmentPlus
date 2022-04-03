@@ -1,0 +1,42 @@
+.icon_area{
+	height: 220rpx;
+	width: 100%;
+	margin-top: -50rpx;
+}
+
+.ic_items{
+	width: 750rpx;
+	height: 220rpx;
+	margin: 0 auto;
+}
+.ic_item_in{
+	float: left;
+	height: 110rpx;
+	width: 150rpx;
+}
+.ic_item_in image{
+	display: block;
+	width: 80rpx;
+	height: 80rpx;
+	margin: 0 auto;
+}
+.ic_item_in text{
+	display: block;
+	margin-top: -5rpx;
+	text-align: center;
+}
+.tx{
+	display: block;
+	margin-top: 20rpx;
+	font-size: 50rpx;
+}
+.news ul{
+	
+}
+.news ul li{
+	display: block;
+	list-style: none;
+	background-color: #FFFFFF;
+	margin-bottom: 1.5rpx;
+	margin-left: -75rpx;
+}
